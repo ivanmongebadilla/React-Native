@@ -1,8 +1,9 @@
 import RenderCamspite from '../features/campsites/RenderCampsite';
 
 
-const CampsiteInfoScreen = (props) => {
-  return <RenderCamspite campsite={props.campsite} />
+const CampsiteInfoScreen = ({ route }) => {
+    const { campsite } = route.params;
+  return <RenderCamspite campsite={campsite} />
 };
 
 export default CampsiteInfoScreen
