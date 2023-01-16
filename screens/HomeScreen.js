@@ -14,7 +14,7 @@ const FeaturedItem = (props) => {
     if (props.errMess) {
         return (
             <View>
-                <Text>{props.errMss}</Text>
+                <Text>{props.errMess}</Text>
             </View>
         )
     }
