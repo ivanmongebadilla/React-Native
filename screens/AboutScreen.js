@@ -36,7 +36,6 @@ const AboutScreen = () => {
           <Card.Divider />
           <Loading />
         </Card>
-        
       </ScrollView>
     );
   }
